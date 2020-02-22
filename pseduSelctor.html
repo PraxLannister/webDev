@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoSelectors</title>
+    <style>
+        .container {
+            border: 2px solid crimson;
+            background-color: gold;
+            padding: 34px;
+            width: 500px;
+            margin: 100px auto;
+        }
+
+        .container:hover {
+            border: none;
+            background-image: url('1.jpg');
+            cursor: pointer;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .btn{
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+        .btn:hover{
+            font-weight: bold;
+            background-color: silver    ;
+            
+        }
+        a:visited{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <h1>This is h1 heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem facilis fugit ipsum rerum, nam natus
+                alias aliquam, quasi repellat voluptates quia ab officia ullam voluptatum dolor, cum nemo mollitia
+                nesciunt sit totam!</p>
+            <div class="divbtn">
+                <button class="btn">
+                    Hey Click me
+                </button>
+                <a href="https://www.google.com" target="_blank" class="btn">You can also click me</a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
